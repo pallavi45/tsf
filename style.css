@@ -1,0 +1,61 @@
+.bs-example{
+        margin: 20px;
+}
+body{
+	background-image: url("wallpaper.svg");
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: lato;
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	flex-direction: row;
+}
+.box{
+	width: 270px;
+	height: 400px;
+	box-shadow: 0px 0px 7px 3px gold;
+	text-align: center;
+	margin: 25px auto;
+	transition: all 0.5s;
+}
+.box:hover{
+	filter: brightness(1.2);
+}
+h3{
+	margin-top: 10px;
+	font-size: 16px;
+	color: white;
+}
+.box-sub{
+	width: 270px;
+	height: 90px;
+	background-color: gold;
+	line-height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	font-size: 25px;
+	font-weight: 500;
+	color: white;
+}
+h1{
+	font-family: monospace;
+	color: gold;
+	font-weight: 900;
+}
+h4{
+	text-align: center;
+	color:whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
